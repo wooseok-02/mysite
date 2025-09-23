@@ -8,8 +8,8 @@
 6. pip install django
 
 # Django 제공 개발 프로젝트
-django-admin startproject mysite / 기본 프로젝트 만들기( 앱 이름 : mysite )
-python3 manage.py startapp polls / 기본 app 만들기( 앱 이름 : polls )
+1. django-admin startproject mysite #기본 프로젝트 만들기( 앱 이름 : mysite )
+2. python3 manage.py startapp polls #기본 app 만들기( 앱 이름 : polls )
 
 # Django 작동 원리
 1. urls.py 에서 각 url로 파싱
@@ -40,4 +40,10 @@ cntl+c
 2. settings.py에서 installed_apps 에서 해당 app(polls) 인스톨하기 -> 이제야 장고에서 인식
 3. python manage.py makemigrations -> DBMS에 넘기기위한 설계도 만들기
 4. python manage.py migrate (실제 테이블 생성)
-d
+
+# admin
+1. python manage.py createsuperuser
+2. polls/admin에 모델에 입력한 Question 넣기
+3. 백엔드 서버 실행해서 확인
+
+# view
