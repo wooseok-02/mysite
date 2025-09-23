@@ -47,4 +47,4 @@ cntl+c
 3. 백엔드 서버 실행해서 확인
 
 # view
-all
+all 
